@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galería de Proyectos</title>
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+
+    .project {
+      position: relative;
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+    }
+
+    .project a {
+      position: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .project:hover a {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <section class=".gallery">
+    <div class="project">
+      <img src="img/eeff.jpg" alt="servicios">
+      <a href="eeff.html"> Emisión de Estados Financieros FRS y PCGA </a>
+    <div class="project">
+      <img src="img/costo-jpg.jfif" alt="servicios">
+      <a href="contabilidad.html"> Contabilidad de costo </a>
+    </div>
+    <div class="project">
+      <img src="img/tax.jpg" alt="servicios">
+      <a href="asesoramiento.html">Asesoramiento fiscal</a>
+    </div>
+    <div class="project">
+      <img src="img/ratio.jpg" alt="servicios">
+      <a href="analisis.html">Análisis financiero</a>
+    </div>
+    <div class="project">
+      <img src="img/rrhh.jpg" type="Servicios" </a>
+        <a href="gestion.html">Gestión de nómina</a>
+    </div>
+    </section>
+<style>
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.project {
+  position: relative;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project:hover a {
+  opacity: 1;
+}
+
+</style>
+</body>
+</html>
