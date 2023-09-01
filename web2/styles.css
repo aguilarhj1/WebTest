@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+
+/* Pie de página */
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilos para cada sección del pie de página */
+.footer-section {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de "Servicios" */
+.services {
+  color: #fff;
+}
+
+.services h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para la sección de "Redes Sociales" */
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para la sección de "Pestañas Legales" */
+.legal-tabs {
+  color: #0f0f0f;
+}
+
+.legal-tabs h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.legal-tabs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.legal-tabs ul li {
+  margin-bottom: 5px;
+}.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.categoria {
+  flex: 1;
+  max-width: 300px;
+  background-color: var(--background-color);
+  border: 1px solid var(--tranquil-blue);
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.categoria:hover {
+  transform: scale(1.05);
+}
+
+.categoria a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.categoria a:hover {
+  color: var(--tranquil-blue);
+}/* Sección Columnas (2) */
+#features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+}
+#features .container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#features .left-column {
+  width: 50%;
+  text-align: center;
+}
+#features .left-column img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#features .right-column {
+  width: 50%;
+  text-align: left;
+  padding: 0 20px;
+}
+#features h2 {
+  font-size: 2em;
+  margin: 0 0 20px;
+}
+#features p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0;
+}
+#features .btn {
+  display: inline-block;
+  font-size: 1em;
+  padding: 15px 30px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+#features .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
