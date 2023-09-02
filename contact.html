@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serconfin - Asesoría Financiera</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .hero {
+            background-image: url('ruta-de-la-imagen.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #FFD700;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .gallery-item {
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .gallery-item a {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .column h2 {
+            margin-bottom: 10px;
+        }
+
+        .column p {
+            font-size: 14px;
+        }
+
+        .column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .column ul li {
+            margin-bottom: 5px;
+        }
+
+        .social-icons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .social-icons-grid a img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo-empresa.png" alt="Logo de la Empresa">
+            <h1>Serconfin</h1>
+        </div>
+        <nav>
+            <ul class="nav-tabs">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Acerca de Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="categorias">
+        <div class="categoria">
+            <a href="Analisis-EEFF.html">Analisis EEFF</a>
+        </div>
+        <div class="categoria">
+            <a href="revision-Contabilidad.html">revision Contabilidad</a>
+        </div>
+        <div class="categoria">
+            <a href="Emision-EEFF.html">Emision EEFF</a>
+        </div>
+        <div class="categoria">
+            <a href="Gestion-RRHH.html">Gestion RRHH</a>
+        </div>
+        <div class="categoria">
+            <a href="Tax.html">Revision impuestos</a>
+        </div>
+    
+        </div>
+    </section>
+    <style>
+        /* Sección Categorías */
+        .categorias {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            gap: 1rem;
+        }
+    
+        .categoria {
+            flex: 1;
+            max-width: 300px;
+            background-color: var(--background-color);
+            border: 1px solid var(--tranquil-blue);
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+    
+        .categoria:hover {
+            transform: scale(1.05);
+        }
+    
+        .categoria a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+    
+        .categoria a:hover {
+            color: var(--tranquil-blue);
+        }
+    </style>
+    
+    </section>
+    <header><section class="hero">
+        <h1>Bienvenidos</h1>
+        <p>¡HAZ CRECER TU NEGOCIO SIN PREOCUPARTE POR LAS FINANZAS! EN SERCONFIN, TE BRINDAMOS ASESORAMIENTO
+            Y
+            CONSULTORÍA FINANCIERA INTEGRAL PARA QUE TOMES LAS MEJORES DECISIONES PARA TU EMPRESA.</p>
+        <style>
+        /* HERO */
+        #hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+    
+        #hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+    
+        #hero p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    
+        #hero .btn {
+            display: inline-block;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.2s, color 0.2s;
+        }
+    
+        #hero .btn:hover {
+            background-color: #fff;
+            color: #333;
+        }
+    </style>
+    </header>
+    section
+
+<!-- Galería -->
+<section id="galeria">
+    <h2>Galería de imágenes</h2>
+    <div class="galeria">
+        <img src="img/s_tax.png" alt="Imagen 1">
+        <img src="img/S_analisis_fin.png" alt="Imagen 2">
+        <img src="img/S_entre_otro.png" alt="Imagen 3">
+        <img src="img/S_Emision_eeff.png" alt="Imagen 4">
+        <img src="img/S_gestion_rrhh.png" alt="Imagen 5">
+        <img src="img/S_conta.png" alt="Imagen 6">
+    </div>
+</section>
+<style>
+    /* Galería */
+    /* Galería */
+    #galeria {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    #galeria h2 {
+        font-size: 2em;
+        margin: 0 0 20px;
+    }
+
+    #galeria .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -5px;
+    }
+
+    #galeria .galeria img {
+        width: 30%;
+        height: auto;
+        margin: 0 5px 20px;
+        object-fit: cover;
+        border-radius: 5px;
+        transition: transform 0.2s;
+    }
+
+    #galeria .galeria img:hover {
+        transform: scale(1.1);
+    }
+</style>
+
+    <footer class="footer">
+        <div class="column">
+            <h2>Serconfin</h2>
+            <p>¡HAZ CRECER TU NEGOCIO SIN PREOCUPARTE POR LAS FINANZAS! EN SERCONFIN, TE BRINDAMOS ASESORAMIENTO Y
+                CONSULTORÍA FINANCIERA INTEGRAL PARA QUE TOMES LAS MEJORES DECISIONES PARA TU EMPRESA.</p>
+        </div>
+        <div class="column">
+            <h2>Servicios</h2>
+            <ul>
+                <li><a href="Preparación-Estados-Financieros.html">Preparación Estados
+                        Financieros</a></li>
+                <li><a href="Contabilidad.html">Contabilidad</a></li>
+                <li><a href="Asesoría-Tax.html">Asesoría Tax</a></li>
+                <li><a href="Analisis-Financiero.html">Análisis Financiero</a></li>
+                <li><a href="Recursos-Humanos.html">Recursos Humanos</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Pestañas legales</h2>
+            <ul>
+                <li>Política de privacidad</li>
+                <li>Términos y condiciones</li>
+                <li>Cookies</li>
+                <li>Declaración de accesibilidad</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Redes Sociales</h2>
+            <div class="social-icons-grid">
+                <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+                <a href="#"><img src="img/twet.png" alt="Twitter"></a>
+                <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="img/Whatsapp.png" alt="whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

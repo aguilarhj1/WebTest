@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi página web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #0a0404;
+            padding: 1rem;
+        }
+
+        nav ul {
+            /* ... */
+        }
+
+        nav li a {
+            color: #333;
+        }
+
+        main {
+            background: #0e0d0d;
+            padding: 2rem;
+        }
+
+        aside {
+            background: #030303;
+            color: #333;
+            padding: 1rem;
+        }
+
+        footer {
+            background: #333;
+            color: #050505;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        nav li a:hover,
+        header a:hover,
+        footer a:hover {
+            color: #070707;
+        }
+
+        .categorias {
+            display: flex;
+            justify-content: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .categoria {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .tarjeta {
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        .tarjeta:hover {
+            transform: scale(1.02);
+        }
+
+        i {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tarjeta a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .tarjeta a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo-empresa.png" alt="Logo de la Empresa">
+            <h1>Serconfin</h1>
+        </div>
+        <nav>
+            <ul class="nav-tabs">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Acerca de Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="categorias">
+        <div class="categoria">
+            <a href="Analisis-EEFF.html">
+                <div class="tarjeta">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3>Analisis EEFF</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="categoria">
+            <a href="revision-Contabilidad.html">
+                <div class="tarjeta">
+                    <i class="fas fa-file-signature"></i>
+                    <h3>revision Contabilidad</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="categoria">
+            <a href="Emision-EEFF.html">
+                <div class="tarjeta">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Emision EEFF</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="categoria">
+            <a href="Gestion-RRHH.html">
+                <div class="tarjeta">
+                    <i class="fas fa-users"></i>
+                    <h3>Gestion RRHH</h3>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Add the rest of your HTML code here -->
+
+</body>
+
+</html>

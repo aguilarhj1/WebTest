@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background: #2196F3; /* Azul */
+  color: #fff;
+  padding: 1rem;  
+}
+
+nav ul {
+  /* ... */ 
+}
+
+main {
+  background: #fff;
+  padding: 2rem;
+}
+
+aside {
+  background: #FFEB3B; /* Amarillo */  
+  color: #333;
+  padding: 1rem;
+}
+
+footer {
+  background: #8BC34A; /* Verde */
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav li a:hover,
+header a:hover,   
+footer a:hover {
+  color: #ccc;
+}
